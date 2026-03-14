@@ -1,0 +1,11 @@
+@import "tailwindcss";
+:root{
+    --bg: rgb(32, 31, 31);
+    --tcolor: rgb(225, 225, 225);
+    --box: rgb(225, 225, 225,0.9);
+}
+@theme {
+    --color-bg: var(--bg);
+    --color-tcolor: var(--tcolor);
+    --color-box: var(--box);
+}

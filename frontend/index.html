@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+ <div id="main-container" class="h-screen w-screen bg-bg">
+    <div id="note-div" class=" hidden h-full w-full absolute bg-bg">
+        <button id="back" class="bg-[#fdb600] text-white text-2xl h-[10vh] w-[10vh] rounded-full fixed bottom-10 right-10 "><i class="ri-arrow-left-long-line"></i></button>
+        <div contenteditable="true" id="note" class=" bg-bg w-full px-5 pt-10 pb-5 text-tcolor text-sm focus:outline-none caret-[#fdb600]">
+        </div>
+    </div>
+    <div id="top" class="p-10">
+        <h1 class="text-4xl font-semibold text-tcolor">Notes</h1>
+    </div>
+    <div id="stack" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-5 gap-5">
+        <button id="add" class="bg-[#fdb600] text-white text-2xl h-[10vh] w-[10vh] rounded-full absolute bottom-10 right-10 "><i class="ri-add-large-fill"></i></button>
+    </div>
+    
+ </div>
+ <script src="/backend/script.js"></script>
+</body>
+</html>
